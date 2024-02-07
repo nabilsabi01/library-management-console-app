@@ -32,17 +32,29 @@ public class Library {
         this.students = students;
     }
 
-    @Override
-    public String toString() {
-        return "Library{" +
-                "books=" + books +
-                ", students=" + students +
-                '}';
-    }
 
     // add methode
+    public void addBook(Book book){
+        books.add(book);
+    }
 
     // delete methode
+    public void delBook(Book book){
+        books.remove(book);
+    }
 
-    // search methode
+    // search methode by title
+    public Book searchBook(String title){
+        for (Book book : books){
+            if (book.getTitle().equals(title)) {
+                return book;
+            }
+        }
+        return null;
+    }
+
+    // display books
+    public void displayBook(ArrayList<Book> books){
+
+    }
 }

@@ -1,10 +1,20 @@
+import java.util.Date;
+
 public class Book {
     // fields
-    String title;
-    String author;
-    String isbn;
-    String publishDate;
-    Student student;
+    private String title;
+    private String author;
+    private String isbn;
+    private Date publishDate;
+//    private Student student;
+
+     //constractor parameter
+    public Book(String title, String author, String isbn, Date publishDate) {
+        this.title = title;
+        this.author = author;
+        this.isbn = isbn;
+        this.publishDate = publishDate;
+    }
 
     // getter and setter
     public String getTitle() {
@@ -31,21 +41,21 @@ public class Book {
         this.isbn = isbn;
     }
 
-    public String getPublishDate() {
+    public Date getPublishDate() {
         return publishDate;
     }
 
-    public void setPublishDate(String published_date) {
-        this.publishDate = published_date;
+    public void setPublishDate(Date publishDate) {
+        this.publishDate = publishDate;
     }
 
-    public Student getStudent() {
-        return student;
-    }
-
-    public void setStudent(Student student) {
-        this.student = student;
-    }
+//    public Student getStudent() {
+//        return student;
+//    }
+    
+//    public void setStudent(Student student) {
+//        this.student = student;
+//    }
 
     // methods
     public void updateBook(Book book){

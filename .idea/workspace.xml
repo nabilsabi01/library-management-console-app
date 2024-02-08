@@ -8,7 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management/src/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Management/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Management/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Library Management/src/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library Management/src/Book.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Library Management/src/Menu.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Library Management/src/Student.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,16 +50,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Library-Management",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Library-Management&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Library-Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,5 +103,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

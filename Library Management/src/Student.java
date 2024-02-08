@@ -7,6 +7,16 @@ public class Student {
     private String id;
     private ArrayList<Book> books;
 
+    public Student() {
+    }
+
+    // constructor paramether
+    public Student(String name, String address, String id) {
+        this.name = name;
+        this.address = address;
+        this.id = id;
+    }
+
     // getter and setter
     public String getName() {
         return name;
